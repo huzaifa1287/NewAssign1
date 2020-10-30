@@ -1,0 +1,79 @@
+.navbar{
+	background-color: #D32F2F !important;
+}
+.nav-link{
+	color: white !important;
+	font-weight: bold !important;
+}
+.fa-shopping-cart,.fa-user-circle,.fa-thumbs-up{
+	font-size: 32px !important;
+}
+.fa-truck,.fa-headphones,.fa-thumbs-up{
+	font-size: 50px !important;
+	margin-right: 10px;
+	color:  #D32F2F !important;
+}
+h3{
+	color:  #D32F2F !important;
+}
+.card1,.card2,.card3{
+	display: flex; /*isse dono cheeze hmne samne ajati ha*/
+	height:100px;
+	width: 300px;
+	background-color: #fff;
+	box-shadow: 2px 4px 5px grey;
+	justify-content: center;
+	align-items: center;
+	margin-top: 10px;
+}
+.mainCard{
+	margin-top: 30px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap; /*for responsive*/
+}
+.heading{
+	text-align: center;
+	font-weight: bold;
+	color: #D32F2F;
+	margin: 20px;
+}
+.heading > h1{
+	text-shadow: 2px 2px 4px black;
+
+}
+.newArrivals{
+	margin-top:50px;
+}
+.card{
+	width: 250px;
+	height: auto !important;
+	margin:5px;
+}
+.card-text{
+	font-weight: bold;
+}
+.btn-primary{
+	width: 100%;
+	background-color: #D32F2F !important;
+}
+.footer{
+	width: 100%;
+	background-color: #D32F2F;
+	height: 70px;
+
+}
+.footer > div{
+	text-align: center;
+}
+h4{
+	color: white;
+}
+/* jab card ka size mobile pe ae toh woh full
+width hojae*/
+@media screen and (max-width: 600px){ /*600 se size small hopaje toh full width*/
+ .card1,.card2,.card3{
+ 				width: 100%;
+ }
+}
